@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter a age");
+	scanf("%d",&a);
+	if(a>=18)
+	{
+		printf("eligible for voting");
+}
+
+{
+	printf("not elligible for voting");
+}
+printf("wait for %d years year",18-a);
+}
+
