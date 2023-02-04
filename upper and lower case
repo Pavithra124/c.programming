@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(){
+	char str[100];
+	int i;
+	int upper=0,lower=0,num=0,special=0;
+	printf("enter the string\n");
+	gets(str);
+	for(i=0;str[i]!='\0';i++){
+		if (str[i]>='A'&&str[i]<='z'){
+			upper++;
+		}
+		else if(str[i]>='a'&& str[i]<='z'){
+			lower++;
+		}
+		else if(str[i]>='0'&& str[i]<='9'){
+			num++;
+		}
+		else{
+			special++;
+		}
+	}
+	printf("\n upper case letters:%d",upper);
+	printf("\n loer case ;etters:%d",lower);
+	printf("\n spwcial characters:%d",special);
+	printf("\n numbers:%d",num);
+	return 0;
+}
