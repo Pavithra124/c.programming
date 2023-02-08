@@ -1,3 +1,4 @@
+//checking voting eligibility
 #include<stdio.h>
 int main()
 {
