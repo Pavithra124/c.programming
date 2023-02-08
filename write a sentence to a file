@@ -1,3 +1,4 @@
+//printing a sentence to a file
 include <stdio.h>
 #include <stdlib.h>
 
