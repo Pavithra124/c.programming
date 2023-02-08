@@ -1,3 +1,4 @@
+//calculating the difference between time periods
 #include <stdio.h>
 struct TIME {
    int seconds;
