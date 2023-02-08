@@ -1,0 +1,19 @@
+//printing odd and even between the range
+#include<stdio.h>  
+int main()  
+{  
+       int lower, upper, i, count=0;  
+       printf("Enter the lower limit: ");  
+       scanf("%d", &lower);  
+       printf("\nEnter the upper limit: ");  
+       scanf("%d", &upper);  
+       for(i = lower; i <= upper; i++)  
+       {      
+             if(i % 2 != 0)  
+             {    
+                   count++;  
+             }  
+       }  
+       printf("Number of odd numbers: %d", count);  
+       printf("\nNumber of even numbers: %d", upper - lower + 1 - count);  
+}  
