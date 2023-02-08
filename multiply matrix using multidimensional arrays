@@ -1,3 +1,4 @@
+//multiplying matrix using multidimensional array
 #include <stdio.h>
 void getMatrixElements(int matrix[][10], int row, int column) {
 
