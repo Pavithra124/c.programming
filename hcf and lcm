@@ -1,3 +1,4 @@
+//finding lcm and hcf of two numbers
 #include <stdio.h>
 int main()
 {
