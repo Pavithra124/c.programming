@@ -1,3 +1,4 @@
+//checking voting eligibility of a person
 #include<stdio.h>
 int main(){
 	int age;
