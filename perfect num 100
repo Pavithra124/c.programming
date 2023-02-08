@@ -1,3 +1,4 @@
+//printing perfect number
 #include <stdio.h>
 int isPerfect(int num)
 {
