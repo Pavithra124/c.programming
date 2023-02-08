@@ -1,3 +1,4 @@
+//printing the first line of the file
 #include <stdio.h>
 int main() {
     char c[1000];
