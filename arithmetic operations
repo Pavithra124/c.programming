@@ -1,3 +1,4 @@
+// arithmetic operarations
 #include<stdio.h>
 int main(){
 	int x,n;
