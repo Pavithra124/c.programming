@@ -1,3 +1,4 @@
+//printing the information of the student
 #include <stdio.h>
 struct student {
     char firstName[50];
