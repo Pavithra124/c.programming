@@ -1,3 +1,4 @@
+//finding percentage of the student marks
 #include <stdio.h>
 
 int main()
