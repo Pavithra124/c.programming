@@ -1,3 +1,4 @@
+//atm machine
 #include<stdio.h>
 #include<conio.h>
 unsigned long amount=25000, deposit, withdraw;
