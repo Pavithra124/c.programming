@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <string.h>
+
+struct Book {
+    char title[50];
+    char author[50];
+    char subject[100];
+    int book_id;
+};
+
+void printBook(struct Book book);
+
+int main() {
+    struct Book book1;
+    struct Book book2;
+
+    // Book 1 details
+    strcpy(book1.title, "The Great Gatsby");
+    strcpy(book1.author, "F. Scott Fitzgerald");
+    strcpy(book1.subject, "Fiction");
+    book1.book_id = 1;
+
+    // Book 2 details
+    strcpy(book2.title, "The Catcher in the Rye");
+    strcpy(book2.author, "J.D. Salinger");
+    strcpy(book2.subject, "Fiction");
+    book2.book_id = 2;
+
+    // Print Book 1 details
+    printBook(book1);
+
+    // Print Book 2 details
+    printBook(book2);
+
+    return 0;
+}
+
+void printBook(struct Book book) {
+    printf("Title: %s\n", book.title);
+    printf("Author: %s\n", book.author);
+    printf("Subject: %s\n", book.subject);
+    printf("Book ID: %d\n", book.book_id);
+    printf("\n");
+}
