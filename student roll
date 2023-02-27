@@ -1,0 +1,24 @@
+//printing student details
+#include <stdio.h>
+
+int main() {
+    int n, roll;
+    char name[50];
+    FILE *fp = fopen("students.txt", "w");
+    if (fp == NULL) {
+        printf("Error opening file!\n");
+        return 1;
+}
+    printf("Enter the number of students: ");
+    scanf("%d", n);
+    for (int i = 1; i <= n; i++) {
+        printf("Enter the name of student %d: ", i);
+        scanf("%s", name);
+        printf("Enter the roll number of student %d: ", i);
+        scanf("%d", &roll);
+        fprintf(fp, "%d %s\n", roll, name);
+    }
+    fclose(fp);
+
+    return 0;
+}
