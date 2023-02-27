@@ -1,3 +1,4 @@
+//author and details of book
 #include <stdio.h>
 #include <string.h>
 
